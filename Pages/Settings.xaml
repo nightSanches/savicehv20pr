@@ -22,7 +22,7 @@
             <Label Content="База данных: " Background="White" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top"/>
             <Border BorderBrush="Black" BorderThickness="1" Height="45" Margin="10,96,10,0" VerticalAlignment="Top">
                 <Grid>
-                    <ComboBox SelectionChanged="SelectScreen Resolution" Margin="10,10,9.8,0" VerticalAlignment="Top">
+                    <ComboBox SelectionChanged="SelectScreen_Resolution" Margin="10,10,9.8,0" VerticalAlignment="Top">
                         <TextBlock>800 x 450</TextBlock>
                         <TextBlock>800 x 600</TextBlock>
                         <TextBlock>1024 x 768</TextBlock>
@@ -55,7 +55,7 @@
                     <Grid Margin="0,41,-0.2,10.4">
                         <Label Content="Üвет текста:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
                         <Grid Margin="127,10,584,0" Background="Black" Height="27" VerticalAlignment="Top"></Grid>
-                        <Button Click="SelectColorText" Content="Bыбpaть" HorizontalAlignment="Left" Margin="182,10,0,0" VerticalAlignment="Top" Width="150" Height="26"/>
+                        <Button Content="Bыбpaть" HorizontalAlignment="Left" Margin="182,10,0,0" VerticalAlignment="Top" Width="150" Height="26"/>
                     </Grid>
                 </Grid>
             </Border>
@@ -63,7 +63,7 @@
             <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="63" Margin="10,277,0,0" VerticalAlignment="Top" Width="762">
                 <Grid>
                     <Label Content="Segoe UI" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="614"/>
-                    <Button Click="SelectFonts" Content="Bыбpaть" HorizontalAlignment="Left" Margin="629,10,0,0" VerticalAlignment="Top" Width="121" Height="25"/>
+                    <Button Content="Bыбpaть" HorizontalAlignment="Left" Margin="629,10,0,0" VerticalAlignment="Top" Width="121" Height="25"/>
                 </Grid>
             </Border>
             <Label Content="Шрифт: " Background="White" HorizontalAlignment="Left" Margin="20,265,0,0" VerticalAlignment="Top"/>
