@@ -20,9 +20,21 @@ namespace savicehv20pr
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public enum pages
+        {
+            settings
+        }
+
+        public OpenPage(pages _pages)
+        {
+            if (_pages == pages.settings)
+                frame.Navigate(new Pages.Settings(this));
+        }
         public MainWindow()
         {
             InitializeComponent();
+            OpenPage(pages.settings);
         }
     }
 }
