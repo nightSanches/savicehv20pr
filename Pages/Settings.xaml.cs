@@ -13,29 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace savicehv20pr
+namespace savicehv20pr.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Settings.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Settings : Page
     {
-
-        public enum pages
-        {
-            settings
-        }
-
-        public void OpenPage(pages _pages)
-        {
-            if (_pages == pages.settings)
-                frame.Navigate(new Pages.Settings(this));
-        }
-
-        public MainWindow()
+        public Settings()
         {
             InitializeComponent();
-            OpenPage(pages.settings);
         }
     }
 }
